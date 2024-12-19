@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bar{
+    display: flex;
+    width: auto;
+    height: 5.29vw;
+    border-bottom: 1px;
+    justify-content: space-between;
+    padding-top: 1.05vw;
+    padding-bottom: 1.05vw;
+    background-color: #FFFFFF ;
+    margin-right: 5.17vw;
+    margin-left: 3.17vw;
+    align-items: center;
+}
+.logo{
+    width: 11.65vw;
+    height: 3vw;
+    font-family: 'DotGothic16', Arial;
+    font-weight: 400;
+    font-size: 3.24vw;
+    line-height: 2.77vw;
+    gap: 0.79vw;
+    color:#000000;
+}
+.pagelinks{
+    display: flex;
+    width: 28.37vw;
+    height: 2.11vw;
+    gap: 2.11vw;
+    font-family: 'DotGothic16', Arial;
+    font-weight: 400;
+    font-size: 1.85vw;
+    line-height: 2.11vw;
+    color:#000000;
+}
+.pagelinks a {
+    color: #000000; 
+    padding: 0.33vw;
+    text-decoration: none;  
+    transition: all 0.3s ease-in; 
+    border-radius: 0.33vw; 
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.pagelinks a:hover {
+    color: #ffffff; 
+    background-color: black; 
+    transform: scale(1.1); 
+}
+
+.divider{
+    border: 1px solid black;
+    margin: 0px;
+}
+.container{
+    margin-right: 3.17vw;
+    margin-left: 3.17vw;
+    width: auto;
+    height: 365.41vw;
+    padding-bottom: 6.35vw;
+    padding-top: 6.35vw;
+}
+.welcome{
+    width: auto;
+    height: auto;
+    font-size: 7.93vw;
+    line-height: 120px;
+    font-weight: 400;
+    font-family: 'DotGothic16', Arial;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 4.29vw;
+}
+.landingimage{
+    width: 100%; 
+    height: auto;
+    margin-bottom: 65px;
+}
+.personalagency{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
