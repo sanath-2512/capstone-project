@@ -55,22 +55,21 @@ html, body {
 }
 
 .divider{
-    border: 1px solid black;
-    margin: 0px;
+    border: 0.066vw solid black;
+    margin: 0vw;
 }
 .container{
     margin-right: 3.17vw;
     margin-left: 3.17vw;
     width: auto;
-    height: 365.41vw;
-    padding-bottom: 6.35vw;
+    height: auto;
     padding-top: 6.35vw;
 }
 .welcome{
     width: auto;
     height: auto;
     font-size: 7.93vw;
-    line-height: 120px;
+    line-height: 7.93vw;
     font-weight: 400;
     font-family: 'DotGothic16', Arial;
     text-align: center;
@@ -80,10 +79,213 @@ html, body {
 .landingimage{
     width: 100%; 
     height: auto;
-    margin-bottom: 65px;
+    margin-bottom: 8.29vw;
 }
-.personalagency{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
+.gridcontainer{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
+    gap: 1.322vw;
+    margin-bottom: 3.17vw;
+}
+.project img{
+    width: 100%;
+    height: 18.32vw;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 1.5%;
+}
+.text1{
+    font-family: 'Archivo', Arial;
+    font-size: 1.322vw;
+    font-weight: 400;
+    line-height: 0.6vw;
+    text-align: left;
+}
+.text2{
+    font-family: Archivo;
+    font-size: 1.124vw;
+    font-weight: 400;
+    line-height: 0.6vw;
+    text-align: left;
+}
+.project {
+    transition: all 0.3s ease; 
+}
+.project:hover {
+    background-color: #f0f0f0; 
+    transform: scale(1.05); 
+    box-shadow: 0px 4px 8px rgba(200, 200, 200, 0.3);
+    border-radius: 1.5%;
+}
+.aboutme{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7vw
+}
+.am{
+    font-family: "DotGothic16",Arial;
+    font-size: 1.851vw;
+    font-weight: 400;
+    line-height: 2.11vw;
+    letter-spacing: -0.01em;
+    align-items: center;
+
+}
+.attri{
+    display: flex;
+    font-family: "Archivo",Arial;
+    font-size: 1.12vw;
+    font-weight: 400;
+    line-height: 1.851vw;
+    justify-content: space-around;
+    width: 42.8vw;
+    height: 7.407vw;
+    margin-bottom: 3.17vw;
+}
+
+.tagline{
+    width: 88.89vw;
+    height: 47.62vw;
+    display: flex;
+    align-items: center;
+    background: radial-gradient(63.68% 40.76% at 50% 103.08%, rgba(36, 25, 243, 0.06) 0%, rgba(255, 255, 255, 0) 100%);
+
+}
+.buton{
+    width: 88.89vw;
+    height: 14.021vw;
+}
+#see{
+    font-family: "DotGothic16",Arial;
+    font-size: 4.23vw;
+    font-weight: 400;
+    line-height: 2.49vw;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+#Explore{
+    font-family: "Archivo",Arial;
+    font-size: 1.58vw;
+    font-weight: 400;
+    line-height: 0.11vw;
+    letter-spacing: -0.005em;
+    text-align: center;
+}
+#button{
+    
+    width: 11.97vw;
+    height: 3.17vw;
+    padding: 0.8vw 1.6vw 0.8vw 1.6vw;
+    gap: 0px;
+    border-radius: 0.53vw;
+    opacity: 0px;
+    background-color: #2419F3;
+    font-family: "Archivo",Arial;
+    font-size: 1vw;
+    font-weight: 500;
+    line-height: 1.58vw;
+    text-align: left;
+    color: #FFFFFF;
+    text-align: center;
+    align-self: center;
+    transition: all 0.3s ease;
+}
+#button:hover {
+    background-color: #1E13D9; 
+    color: #f0f0f0; 
+    transform: scale(1.05); 
+    box-shadow: 0vw 0.264vw 0.528vw rgba(0, 0, 0, 0.2); 
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+.what{
+    font-family: DotGothic16;
+    font-size: 3.17vw;
+    font-weight: 400;
+    line-height: 3.43vw;
+    letter-spacing: -0.01em;
+    text-align: center;
+    
+}
+.container1{
+    margin-right: 3.17vw;
+    margin-left: 3.17vw;
+    width: auto;
+    height: auto;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vw;
+
+}
+.card1{
+    width: 19.04vw;
+    height: 12.7vw;
+    padding: 1.7vw;
+    gap: 1.587vw;
+    border-radius: 1.05vw;  
+}
+.card2{
+    width: 19.04vw;
+    height: 11.11vw;
+    padding: 1.587vw ;
+    gap: 1.587vw;
+    border-radius: 1.05vw; 
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.container2{
+    margin-right: 3.17vw;
+    margin-left: 3.17vw;
+    width: auto;
+    height: auto;
+    padding-top: 2.35vw;
+    padding-bottom: 6.35vw;
+}
+.lastcontainer{
+    width: auto;
+    height: auto;
+    margin-right: 3.17vw;
+    margin-left: 3.17vw;
+    padding: 6.34vw 0px 1.58vw 0px;
+    gap: 1.58vw;
+    border: 0.066vwx;
+
+    display: flex;
+    justify-content: space-between;
+}
+.lasttext{
+    font-family: DotGothic16;
+    font-size: 1.851vw;
+    font-weight: 400;
+    line-height: 2.11vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.lastbutton{
+    width: 8.86vw;
+    height: 3.17vw;
+    padding: 0.79vw 1.587vw 0.79vw 1.587vw;
+    border-radius: 0.529vw ;
+    border: 0.066vw solid black ;
+    opacity: 0px;
+    background-color:white;
+    color: black;
+    font-family: Archivo Narrow;
+    font-size: 1.322vw;
+    font-weight: 500;
+    line-height: 1.587vw;
+    text-align: left;
+
+    
 }
