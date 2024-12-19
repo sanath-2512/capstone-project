@@ -278,14 +278,12 @@ html, body {
     padding: 0.79vw 1.587vw 0.79vw 1.587vw;
     border-radius: 0.529vw ;
     border: 0.066vw solid black ;
-    opacity: 0px;
     background-color:white;
     color: black;
     font-family: Archivo Narrow;
-    font-size: 1.322vw;
+    font-size: 1vw;
     font-weight: 500;
     line-height: 1.587vw;
     text-align: left;
-
-    
+    text-align: center;
 }
